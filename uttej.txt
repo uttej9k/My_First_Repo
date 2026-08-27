@@ -1,4 +1,0 @@
-cd ~
-git clone git@github.com:uttej9k/My_First_Repo.git
-
-Welcome to GITHUB class Sessions....
