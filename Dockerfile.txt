@@ -1,0 +1,10 @@
+FROM nginx
+MAINTAINER Uttej
+EXPOSE 80
+LABEL This is my First Dockerfile
+ADD https://download.sonatype.com/nexus/3/nexus-3.96.2-01-linux-x86_64.tar.gz .
+WORKDIR /Test/
+COPY index.html /usr/share/nginx/html
+RUN touch SVRR
+RUN mkdir Test_Folder
+ENV Author=UTTEJ
